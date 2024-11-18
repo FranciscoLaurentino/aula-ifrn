@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    
+}
+
+.caixa{
+    padding: 20px;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0.5px 1px 2px;
+    position: relative;
+}
+
+.caixa h1:hover, .caixa:hover, a:hover{
+    color: blue;
+    background-color: black;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(38, 36, 36);
+}
+
+a{
+    color: black;
+    border-radius: 8px;
+}
+
+.caixa::before, .caixa::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(10% + 10px);
+    height: calc(10% + 10px);
+    background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000, #ffff00, #00ff00, #0099ff, #001aff, #a200ff);
+    background-size: 300%;
+    border-radius: 8px;
+    animation: borda 8s linear infinite;
+}
+
+@keyframes borda {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 300%;
+    }
+}
+
+.caixa::after {
+    filter: blur(50px);
+}
+

@@ -1,0 +1,76 @@
+body{
+    background-color: #baabab;
+    text-align: center;
+
+}
+
+main{
+    padding: 30px;
+
+}
+
+.formulário{
+
+    background-color:#74A9DB;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+.nome{
+    background-color: #D2DB74;
+    border-radius: 100px;
+}
+
+#nome{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100px;
+}
+#sobrenome{
+    padding: 10px;
+    border-radius: 100px;
+
+}
+
+.genero{
+    padding: 10px;
+    margin: 20px;
+    background-color: #7473DB;
+    border-radius: 100px;
+}
+.abilidades{
+    padding: 10px;
+    margin: 20px;
+    background-color: #DBC974;
+    border-radius: 100px;
+}
+
+#pais{
+    border-radius: 100px;
+}
+
+.pais{
+    padding: 10px;
+    margin: 20px;
+    background-color: #747486;
+    border-radius: 100px;
+}
+.nascimento{
+    padding: 10px;
+    margin: 20px;
+    background-color: #59728e;
+    border-radius: 100px;
+}
+
+#data{
+    border-radius: 100px;
+}
+
+#enviar{
+    border-radius: 100px;
+}
+
+#nome:hover{
+    padding: 15px;
+}

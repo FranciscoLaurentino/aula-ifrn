@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tformulario1</title>
+    <style>
+        .geral{
+            border: 3px dashed rgb(28, 27, 27);
+            padding: 15px;
+            background-color: rebeccapurple;
+            color: white;
+        }
+
+        .nomes{
+            margin: 10px;
+            
+        }
+
+        body{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="geral">
+            <form>
+                <div class="nomes">
+                <p>informe seu nome e sobrenome</p>
+                <label for="nome">Digite seu nome</label>
+                <input type="text" id="nome">
+<br>
+                <label  for="sobrenome">Digite seu sobrenome</label>
+                <input style="margin-top: 10px;" type="text" name="sobrenome" id="sobrenome">
+                </div>
+<br>
+<p>Selecione o seu genero</p>
+<label for="masculino">masculino</label>
+<input type="radio" name="genero" id="masculino">
+<br>
+<label for="feminino">feminino</label>
+<input type="radio" name="genero" id="feminino">
+<br>
+<hr>
+                <p>Qual você usa?</p>
+                <input type="checkbox" id="java" nome="java" value="Java">
+                <label for="java">java</label>
+                <br>
+                <input type="checkbox" id="css" nome="css" value="Css">
+                <label for="css">css</label>
+                <br>
+                <input type="checkbox" id="html" nome="html" value="Html">
+                <label for="html">html</label>
+<hr>
+                <p>para enviar, aperte aqui</p>
+                <input type="submit" name="enviar" id="enviar">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

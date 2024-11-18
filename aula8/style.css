@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(30, 29, 29);
+}
+
+h1 {
+    color: white;
+}
+
+div {
+    color: white;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+}
+
+footer p {
+    color: white;
+}
