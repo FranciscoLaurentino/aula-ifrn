@@ -1,12 +1,14 @@
+
 div{
-    padding: 20px;
+    padding: 20px
 }
 
 .div1{
     width: 300px;
     border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+    margin-bottom: 20px;
 }
-
 #esquerda{
     text-align: left;
 }
@@ -20,3 +22,34 @@ div{
 #justificado{
     text-align: justify;
 }
+body{
+    text-align: center;
+    justify-items: center;
+}
+
+.div2{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+}
+.div2 table{
+    height: 200px;
+}
+
+.div,tr,td{
+    border: 1px solid black;
+}
+#td1{
+    vertical-align: top;
+    text-align: center;
+}
+#td2{
+    vertical-align: middle;
+    text-align: center;
+}
+#td3{
+    vertical-align: bottom;
+    text-align: center;
+}
+
