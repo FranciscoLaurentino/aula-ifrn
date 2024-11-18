@@ -1,0 +1,22 @@
+div{
+    padding: 20px;
+}
+
+.div1{
+    width: 300px;
+    border: 1px solid black;
+}
+
+#esquerda{
+    text-align: left;
+}
+#direida{
+    text-align: right; 
+}
+#centro{
+    text-align: center;
+}
+
+#justificado{
+    text-align: justify;
+}
