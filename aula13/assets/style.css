@@ -1,0 +1,26 @@
+
+div{
+    padding: 20px;
+}
+.conteiner-pai{
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    height: 500px;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.container-fil{
+    border: 1px dashed red;
+    border-radius: 8px;
+    background-color: aquamarine;
+
+}
+
+.foto{
+    display: flex;
+    height: 150px;
+}
