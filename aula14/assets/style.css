@@ -14,10 +14,13 @@ body{
 
 .sesao1{
     display: flex;
-    height: 200px;
-    width: 600px;
+    height: 500px;
+    width: 700px;
     padding: 20px;
     border: 1px solid black;
+    background: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTORR2uMHZNyzpEZwiAaQc5TC2szCCBY_z828Q6giqR28C6syDol-_HxF11QJMWF4tXtglnshoDuQlFpliN6uD5ug);
+    background-size: cover;
+    background-position: center;
 
 }
 .imagem img{
@@ -32,6 +35,7 @@ body{
 .texto{
     border: 1px solid blue;
     text-align: center;
-    align-self: center;
+    height: 200px;
+    color: white;
 
 }
