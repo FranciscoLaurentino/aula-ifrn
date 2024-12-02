@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 20PX;
+    background: url(https://smastr16.blob.core.windows.net/2001/2020/10/capivara-1024x680.jpg);
+    width: 100%;
+    height: 100dvh;
+    background-size: cover;
+    background-position: center;
+}
+
+.sesao1{
+    display: flex;
+    height: 200px;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid black;
+
+}
+.imagem img{
+    border-radius: 300px;
+    margin: 10px;
+    border: 4px solid red;
+}
+
+.imagem{
+    margin-right: 20px;
+}
+.texto{
+    border: 1px solid blue;
+    text-align: center;
+    align-self: center;
+
+}
